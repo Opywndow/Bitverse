@@ -6,66 +6,89 @@
     <title>Welcome to Bitverse</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
-            color: white;
+            background: linear-gradient(to bottom, #1d2b34, #1a1a1a, #363636);
+            color: #f1f1f1;
         }
         header {
-            background: #1c1c1c;
-            padding: 20px;
+            background: #1f1f1f;
+            padding: 30px;
             text-align: center;
+            border-bottom: 5px solid #ff0000;
         }
         header h1 {
             margin: 0;
-            font-size: 2.5rem;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        header h1 .highlight {
+            color: #ff0000;
         }
         nav {
             margin-top: 15px;
+            font-size: 1.2rem;
         }
         nav a {
-            color: #00d9ff;
+            color: #00f0ff;
             text-decoration: none;
-            margin: 0 10px;
+            margin: 0 20px;
+            font-weight: bold;
+            letter-spacing: 1px;
         }
         nav a:hover {
-            text-decoration: underline;
+            color: #ff0000;
         }
         section {
-            padding: 40px;
+            padding: 60px 20px;
             text-align: center;
+            background-color: #222222;
+        }
+        section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        section p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            max-width: 800px;
+            margin: 0 auto;
         }
         .highlight {
-            color: #00d9ff;
+            color: #ff0000;
             font-weight: bold;
         }
         .cta-button {
             display: inline-block;
-            margin-top: 20px;
-            padding: 15px 30px;
-            background: #00d9ff;
-            color: #1c1c1c;
-            font-size: 1.2rem;
+            margin-top: 30px;
+            padding: 15px 35px;
+            background: linear-gradient(45deg, #ff0000, #ff5500);
+            color: white;
+            font-size: 1.4rem;
             border: none;
-            border-radius: 5px;
+            border-radius: 10px;
             text-decoration: none;
-            transition: background 0.3s;
+            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.3);
+            transition: transform 0.2s, background 0.2s;
         }
         .cta-button:hover {
-            background: #00b4cc;
+            background: linear-gradient(45deg, #ff5500, #ff0000);
+            transform: translateY(-3px);
         }
         footer {
-            background: #1c1c1c;
+            background: #1f1f1f;
             text-align: center;
-            padding: 20px;
+            padding: 30px;
             position: relative;
             bottom: 0;
             width: 100%;
+            border-top: 5px solid #ff0000;
         }
         footer p {
             margin: 0;
-            font-size: 0.9rem;
+            font-size: 1rem;
+            letter-spacing: 0.5px;
         }
     </style>
 </head>
@@ -81,22 +104,22 @@
 
     <section id="create">
         <h2>CREATE Your World</h2>
-        <p>Use the powerful <span class="highlight">Godot Engine</span> to bring your imagination to life. Build stunning maps and unique experiences with ease.</p>
+        <p>Use the powerful <span class="highlight">Godot Engine</span> to bring your imagination to life. Build stunning maps and unique experiences with ease, just like your favorite game creators!</p>
     </section>
 
     <section id="explore">
         <h2>EXPLORE Endless Possibilities</h2>
-        <p>Dive into user-created content and experience a universe where every adventure is different. Discover what others have built and be inspired.</p>
+        <p>Jump into player-created worlds and discover endless adventures. Each world is as unique as the creators who built them. You never know what you’ll find next!</p>
     </section>
 
     <section id="join">
-        <h2>POWERED BY YOUR IMAGINATION</h2>
-        <p>Join a thriving community of creators and players. BITVERSE® is more than a platform; it's a revolution.</p>
+        <h2>JOIN The Revolution</h2>
+        <p>Whether you're a builder or a player, BITVERSE® is a community that thrives on creativity and fun. Join today and start your journey in an ever-growing universe!</p>
         <a href="#" class="cta-button">Start Your Journey</a>
     </section>
 
     <footer>
-        <p>&copy; 2025 BITVERSE®. All Rights Reserved.</p>
+        <p>&copy; 2025 BITVERSE®. All Rights Reserved. Powered by Your Imagination.</p>
     </footer>
 </body>
 </html>
