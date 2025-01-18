@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Bitverse</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+        header {
+            background: #1c1c1c;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin-top: 15px;
+        }
+        nav a {
+            color: #00d9ff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .highlight {
+            color: #00d9ff;
+            font-weight: bold;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #00d9ff;
+            color: #1c1c1c;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        .cta-button:hover {
+            background: #00b4cc;
+        }
+        footer {
+            background: #1c1c1c;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to <span class="highlight">BITVERSE®</span></h1>
+        <nav>
+            <a href="#create">Create</a>
+            <a href="#explore">Explore</a>
+            <a href="#join">Join</a>
+        </nav>
+    </header>
+
+    <section id="create">
+        <h2>CREATE Your World</h2>
+        <p>Use the powerful <span class="highlight">Godot Engine</span> to bring your imagination to life. Build stunning maps and unique experiences with ease.</p>
+    </section>
+
+    <section id="explore">
+        <h2>EXPLORE Endless Possibilities</h2>
+        <p>Dive into user-created content and experience a universe where every adventure is different. Discover what others have built and be inspired.</p>
+    </section>
+
+    <section id="join">
+        <h2>POWERED BY YOUR IMAGINATION</h2>
+        <p>Join a thriving community of creators and players. BITVERSE® is more than a platform; it's a revolution.</p>
+        <a href="#" class="cta-button">Start Your Journey</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BITVERSE®. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
